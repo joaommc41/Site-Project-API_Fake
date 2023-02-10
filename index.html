@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css.css" />
+    <title>HOME - API</title>
+  </head>
+
+  <body>
+    <div class="buttons">
+      <button
+        onclick="MyFunction()"
+        type="button"
+        class="btn btn-outline-primary"
+      >
+        <b>API - 1</b>
+      </button>
+      <button
+        onclick="MyFunction1()"
+        type="button"
+        class="btn btn-outline-secondary"
+      >
+        <b>API - 2</b>
+      </button>
+      <button
+        onclick="MyFunction2()"
+        type="button"
+        class="btn btn-outline-success"
+      >
+        <b>API - 3</b>
+      </button>
+      <button
+        onclick="MyFunction3()"
+        type="button"
+        class="btn btn-outline-danger"
+      >
+        <b>API - 4</b>
+      </button>
+      <button
+        onclick="MyFunction4()"
+        type="button"
+        class="btn btn-outline-warning"
+      >
+        <b>API - 5</b>
+      </button>
+      <button
+        onclick="MyFunction5()"
+        type="button"
+        class="btn btn-outline-info"
+      >
+        <b>API - 6</b>
+      </button>
+    </div>
+
+    <div class="atualizar">
+      <input
+        type="button"
+        class="btn btn-outline-dark"
+        value="ATUALIZAR"
+        id="atualiza"
+        onclick="window.location.reload()"
+      />
+    </div>
+
+    <div class="container">
+      <div class="dados">
+        <label for="nome"><b>NOME: </b></label>
+        <div id="nome"></div>
+        <br />
+
+        <label for="profissao"><b>PROFISSÃO: </b></label>
+        <div id="profissao"></div>
+        <br />
+
+        <label for="idade"><b>IDADE: </b></label>
+        <div id="idade"></div>
+        <br />
+
+        <div class="imgs" id="image"></div>
+      </div>
+
+      <div class="imgpq" id="10"></div>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
